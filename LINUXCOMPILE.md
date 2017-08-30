@@ -17,7 +17,7 @@
     cmake .
     make install
 
-    # CentOS
+    # CentOS (cmake3 require EPEL Release)
     sudo yum install centos-release-scl cmake3 hwloc-devel libmicrohttpd-devel openssl-devel
     sudo yum install devtoolset-4-gcc*
     sudo scl enable devtoolset-4 bash
